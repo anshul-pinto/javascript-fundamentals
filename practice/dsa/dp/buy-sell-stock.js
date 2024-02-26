@@ -1,5 +1,5 @@
 var maxProfit = function (prices) {
-  let maxProfit = -Infinity;
+  let maxProfit = 0;
   let curBuyPrice = prices[0];
 
   for (let i = 1; i < prices.length; i += 1) {
